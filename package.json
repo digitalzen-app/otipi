@@ -7,6 +7,7 @@
         "dev": "cross-env VITE_LOG_LEVEL=debug vite",
         "_build": "vue-tsc --noEmit && vite build",
         "build": "vite build",
+        "build:deploy": "npm run build && npx --yes wrangler pages deploy --project-name o-tipi --branch=main ./dist/",
         "preview": "vite preview",
         "test:e2e": "cypress run",
         "test:unit": "vitest",
