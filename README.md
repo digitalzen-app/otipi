@@ -178,6 +178,10 @@ If you find OTIPI useful, please consider giving it a star on GitHub to help oth
 - Add support for additional cloud providers to securely store the vault.
 - Explore fingerprint-based unlocking without server-side storage using WebAuthn. (We attempted storing the password in the ID field, but it was deemed insecure. We couldn't find a solution that avoids server-side involvement, so we welcome advice and suggestions.)
 
+### Help Us Grow
+
+Please help us raise awareness about this app. Just talking about it online can help the community grow and make OTIPI even better!
+
 ---
 
 ### 🚨 Disclaimer (With a Smile!)
