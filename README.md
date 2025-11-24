@@ -124,13 +124,6 @@ We're actively looking for maintainers and contributors! OTIPI is maintained by 
 - 📱 **Mobile Apps**: Native iOS and Android development.
 - 🔒 **Security Audits**: Code review and penetration testing.
 
-## 📖 Documentation
-
-- [User Guide](docs/user-guide.md).
-- [API Documentation](docs/api.md).
-- [Security Architecture](docs/security.md).
-- [Self-Hosting Guide](docs/self-hosting.md).
-
 ## 🆚 Authy Alternative
 
 Migrating from Authy? OTIPI offers:
@@ -148,21 +141,6 @@ Migrating from Authy? OTIPI offers:
 ```bash
 npm run build
 # Output in dist/ folder
-```
-
-### Android Build
-```bash
-npm run build
-npx cap sync android
-cd android
-./gradlew bundleRelease
-```
-
-The output will be in `android/app/build/outputs/bundle/release/`.
-
-### Desktop Build (Electron)
-```bash
-npm run build:electron
 ```
 
 ## 📄 License
