@@ -37,6 +37,20 @@
                     <ion-item button href="#/otp/about">
                         <ion-label>About</ion-label>
                     </ion-item>
+
+                    <ion-item button href="https://github.com/digitalzen-app/otipi" target="_blank">
+                        <ion-icon slot="start" :icon="logoGithub"></ion-icon>
+                        <ion-label>GitHub Project</ion-label>
+                    </ion-item>
+
+                    <ion-item button href="https://digitalzen.app" target="_blank">
+                        <ion-icon slot="start" :icon="heartOutline"></ion-icon>
+                        <ion-label>
+                            Powered by DigitalZen.app
+                            <p style="font-size: 0.8em; margin: 0;">A cross-platform productivity solution, apps and
+                                websites blocker</p>
+                        </ion-label>
+                    </ion-item>
                 </ion-menu-toggle>
             </ion-list>
         </ion-content>
@@ -50,7 +64,7 @@ import { onMounted, ref } from "vue";
 import NameTitle from "@/components/NameTitle.vue";
 import { getVersion } from "@/helpers/versionHelper";
 import { IonMenu, IonContent, IonHeader, IonFooter, IonToolbar, IonTitle, IonList, IonMenuToggle, IonItem, IonIcon, IonLabel, IonItemDivider, IonButton } from "@ionic/vue";
-import { homeOutline, lockClosedOutline, logOutOutline, settingsOutline } from "ionicons/icons";
+import { homeOutline, lockClosedOutline, logOutOutline, settingsOutline, logoGithub, heartOutline } from "ionicons/icons";
 const version = ref("");
 
 onMounted(async () => {

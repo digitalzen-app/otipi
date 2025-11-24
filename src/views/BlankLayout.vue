@@ -2,7 +2,9 @@
     <IonPage>
         <IonHeader>
             <IonToolbar>
-                <IonButton slot="start" fill="none" href="#/otp/codes"><IonIcon :icon="homeOutline"></IonIcon></IonButton>
+                <IonButton slot="start" fill="none" href="#/otp/codes">
+                    <IonIcon :icon="homeOutline"></IonIcon>
+                </IonButton>
                 <NameTitle class="ion-text-center" :is-show-slogen="true" />
             </IonToolbar>
         </IonHeader>
@@ -26,6 +28,10 @@
                 <span class=""><a href="#/pages/terms">Terms</a></span>
                 <span class="ion-padding-start"><a href="#/pages/privacy">Privacy policy</a></span>
                 <span class="ion-padding-start"><a href="#/pages/about">About</a></span>
+                <span class="ion-padding-start"><a href="https://github.com/digitalzen-app/otipi" target="_blank">GitHub
+                        Project</a></span>
+                <span class="ion-padding-start"><a href="https://digitalzen.app" target="_blank">Powered by
+                        DigitalZen.app - a cross-platform apps and websites blocker</a></span>
                 <span class="ion-padding-end ion-float-end">{{ version }}</span>
             </IonText>
         </IonFooter>
@@ -67,7 +73,7 @@ export default {
         this.version = await this.getVersion();
     },
     methods: {
-       getVersion: async () => {
+        getVersion: async () => {
             return await getVersion()
         },
     },
@@ -101,12 +107,16 @@ export default {
 .vertial-container {
     display: flex;
     justify-content: center;
-    align-items: center; /* If you also want to vertically center */
-    height: 100%; /* Ensure it takes full parent height if needed for vertical centering */
+    align-items: center;
+    /* If you also want to vertically center */
+    height: 100%;
+    /* Ensure it takes full parent height if needed for vertical centering */
 }
+
 .vertial-container-child {
     width: 100%;
 }
+
 .ht100 {
     height: 100%;
 }
