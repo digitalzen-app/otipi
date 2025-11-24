@@ -186,7 +186,7 @@ Hey there! While OTIPI is lovingly maintained by the DigitalZen.app team as a si
 
 - **DigitalZen.app does not officially support or take responsibility for this project.**
 - Any usage of OTIPI is entirely at your own risk (but we promise we’ve done our best to make it awesome!).
-- **DigitalZen.app customer support will not respond to emails or provide assistance** related to OTIPI. Seriously, they’re busy with other stuff, and we don’t want to confuse them!
+- **DigitalZen.app customer support will not respond to emails or provide assistance** related to OTIPI. Seriously, they’re busy with other stuff, and we don’t want to confuse them! In fact, they probably don’t even know this project exists, let’s keep it our little secret! 😉
 
 For any issues, questions, or feature requests, please check with the amazing OTIPI community. And hey, if you find something cool or spot a bug, **contribute**! We’d love to see what you come up with.
 
