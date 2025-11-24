@@ -1,4 +1,5 @@
-# OTIPI - Browser-Based Two-Factor Authentication (2FA) App
+# OTIPI - 2FA ANYWHERE 
+## A Browser-Based Two-Factor Authentication (2FA) App
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Website](https://img.shields.io/badge/website-my.otipi.app-green.svg)](https://my.otipi.app)
