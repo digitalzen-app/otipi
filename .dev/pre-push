@@ -1,0 +1,8 @@
+#!/bin/sh
+# Check if we're on the main branch
+branch=$(git rev-parse --abbrev-ref HEAD)
+if [ "$branch" = "main" ] || [ "$branch" = "master" ]; then
+  # Bump the minor version
+  # this will create a new commit and tag
+  npm version patch -m "Bump version to %s"
+fi

@@ -1,0 +1,73 @@
+@media (max-width: 576px) {
+    .no-side-padding-sm {
+        --paddin-start: 0;
+        -webkit-padding-start: 0;
+        padding-inline-start: 0;
+        --inner-padding-start: 0;
+        --paddin-end: 0;
+        -webkit-padding-end: 0;
+        padding-inline-end: 0;
+        --inner-padding-end: 0;
+    }
+    .no-side-margin-sm {
+        --margin-start: var(--ion-margin, 0px);
+        -webkit-margin-start: var(--ion-margin, 0px);
+        margin-inline-start: var(--ion-margin, 0px);
+        --margin-end: var(--ion-margin, 0px);
+        -webkit-margin-end: var(--ion-margin, 0px);
+        margin-inline-end: var(--ion-margin, 0px);
+    }
+    .no-padding-sm-start {
+        --paddin-start: 0;
+        -webkit-padding-start: 0;
+        padding-inline-start: 0;
+        --inner-padding-start: 0;
+    }
+    .no-padding-sm-end {
+        --paddin-end: 0;
+        -webkit-padding-end: 0;
+        padding-inline-end: 0;
+        --inner-padding-end: 0;
+    }
+    .no-margin-sm-start {
+        --margin-start: var(--ion-margin, 0px);
+        -webkit-margin-start: var(--ion-margin, 0px);
+        margin-inline-start: var(--ion-margin, 0px);
+    }
+    .no-margin-sm-end {
+        --margin-end: var(--ion-margin, 0px);
+        -webkit-margin-end: var(--ion-margin, 0px);
+        margin-inline-end: var(--ion-margin, 0px);
+    }
+}
+
+.hover-cursor {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.mt0 {
+    margin-top: 0;
+}
+.pt0 {
+    padding-top: 0;
+}
+
+:root{
+    /* used to be e61b4d*/
+    --ion-color-primary: #dd0808;
+    --otipi-red: #dd0808;
+}
+
+.OtipiRed {
+    color: var(--otipi-red)
+}
+
+.OtipiBlack {
+    color: #252a34;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+

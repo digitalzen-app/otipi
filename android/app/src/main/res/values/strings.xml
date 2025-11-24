@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Otipi</string>
+    <string name="title_activity_main">Otipi</string>
+    <string name="package_name">com.otipi.app</string>
+    <string name="custom_url_scheme">com.otipi.app</string>
+    <!-- <string name="server_client_id">367883949459-46bqhcdv4vciie62rsjmpmteiipbf4bt.apps.googleusercontent.com</string> -->
+</resources>
