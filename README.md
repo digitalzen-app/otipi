@@ -189,7 +189,7 @@ Please help us raise awareness about this app. Just talking about it online can 
 Hey there! While OTIPI is lovingly maintained by the DigitalZen.app team as a side project, we want to make it clear:
 
 - **[DigitalZen.app](https://digitalzen.app) focuses on productivity and blocking apps and websites. While we’re proud to have created OTIPI, we don’t officially support it or take responsibility for its use.**
-- **Any usage of OTIPI is entirely your responsibility (and yes, it’s our main OTP tool—we use it every day!).**
+- **Any usage of OTIPI is entirely your responsibility (and yes, it’s our main 2FA tool, we use it every day!).**
 - **DigitalZen.app customer support will not respond to emails or provide assistance** related to OTIPI. Seriously, they’re busy with other stuff, and we don’t want to confuse them! In fact, they probably don’t even know this project exists, let’s keep it our little secret! 😉
 
 For any issues, questions, or feature requests, please check with the amazing OTIPI community. And hey, if you find something cool or spot a bug, **contribute**! We’d love to see what you come up with.
