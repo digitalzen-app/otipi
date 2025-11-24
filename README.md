@@ -6,6 +6,8 @@
 
 **OTIPI** is a secure, open-source, web-based One-Time Password (OTP) authenticator designed as a modern replacement for Authy. Access your 2FA codes from any device, anywhere, with complete control over your data.
 
+*Maintained by the [DigitalZen.app](https://digitalzen.app) team (but don’t forget to check the [disclaimer](#-disclaimer-with-a-smile)!).*
+
 ## 🌟 Why OTIPI?
 
 We used Authy for a long time on desktop, but they have now become a mobile-only app. If we lose our mobile device, we lose access to our accounts. 
@@ -100,7 +102,7 @@ npm run dev
 
 ## 🤝 Contributing
 
-We're actively looking for maintainers and contributors! OTIPI is maintained by the developers of [DigitalZen.app](https://digitalzen.app) as a side project to help others and welcomes community involvement.
+We're actively looking for maintainers and contributors! OTIPI is maintained by the developers of [DigitalZen.app](https://digitalzen.app) as a side project to help others and welcomes community involvement (but don’t forget to check the [disclaimer](#-disclaimer-with-a-smile)!).
 
 ### How to Contribute
 
@@ -196,4 +198,18 @@ If you find OTIPI useful, please consider giving it a star on GitHub to help oth
 - Separate the countdown timer to work independently for each OTP code.
 - Add support for additional cloud providers to securely store the vault.
 - Explore fingerprint-based unlocking without server-side storage using WebAuthn. (We attempted storing the password in the ID field, but it was deemed insecure. We couldn't find a solution that avoids server-side involvement, so we welcome advice and suggestions.)
+
+---
+
+### 🚨 Disclaimer (With a Smile!)
+
+Hey there! While OTIPI is lovingly maintained by the DigitalZen.app team as a side project, we want to make it clear:
+
+- **DigitalZen.app does not officially support or take responsibility for this project.**
+- Any usage of OTIPI is entirely at your own risk (but we promise we’ve done our best to make it awesome!).
+- **DigitalZen.app customer support will not respond to emails or provide assistance** related to OTIPI. Seriously, they’re busy with other stuff, and we don’t want to confuse them!
+
+For any issues, questions, or feature requests, please check with the amazing OTIPI community. And hey, if you find something cool or spot a bug, **contribute**! We’d love to see what you come up with.
+
+Remember: With great power (and OTPs) comes great responsibility. 😉
 
