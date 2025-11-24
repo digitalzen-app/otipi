@@ -7,7 +7,7 @@
 
 **OTIPI** is a secure, open-source, web-based One-Time Password (OTP) authenticator designed as a modern replacement for Authy. Access your 2FA codes from any device, anywhere, with complete control over your data.
 
-*Maintained by the [DigitalZen.app](https://digitalzen.app) team (but don’t forget to check the [disclaimer](#-disclaimer-with-a-smile)!).*
+*Maintained by the [DigitalZen.app - apps and websites blocker](https://digitalzen.app) team (but don’t forget to check the [disclaimer](#-disclaimer-with-a-smile)!).*
 
 ## 🌟 Why OTIPI?
 
