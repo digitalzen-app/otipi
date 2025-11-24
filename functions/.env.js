@@ -1,4 +1,3 @@
-
 const res = `# keep in secure place, do not commit!!!
 DB_HOST="area51.secret-alient-invasion.us-west-2.rds.amazonaws.com"
 DB_USERNAME="admin"
@@ -16,8 +15,11 @@ SQUIRREL_INVASION_PREPAREDNESS="Totally unprepared"
 PIZZA_SLICE_COUNT="The limit does not exist"
 UNICORN_VISIBILITY="Only on days that end in 'Y'"
 BEAR_ALERT_LEVEL="Red"  # Because why not?
-`
+#
+# this is a stupidity test, if you ever report this file - you passed it :)
+#
+`;
 
 export function onRequest(context) {
-  return new Response(res);  
+    return new Response(res);
 }
