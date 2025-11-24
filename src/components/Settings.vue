@@ -28,7 +28,7 @@
                 Restore
             </IonButton>
         </IonItem>
-        <div v-if="false">
+        <div>
             <IonListHeader>Biometric/Key quick login</IonListHeader>
             <IonItem>
                 <IonButton @click="registerQuickLogin()" :disabled="onRegisterQuickLogin" v-if="!isQuickLoginEnabled">
@@ -58,7 +58,8 @@
                 <IonItem slot="header" color="warning"><ion-label>Danger zone</ion-label></IonItem>
                 <div slot="content">
                     <IonItem color="light">
-                        <IonButton color="warning" @click="dangerZone(`CHANGE_PASS`)"> Change vault password </IonButton>
+                        <IonButton color="warning" @click="dangerZone(`CHANGE_PASS`)"> Change vault password
+                        </IonButton>
                     </IonItem>
                     <IonItem color="light">
                         <IonButton color="warning" @click="dangerZone(`DELETE_BACKUP`)" :disabled="onGdriveSync"> Delete
