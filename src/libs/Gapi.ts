@@ -77,35 +77,58 @@ function _clearTokenFromStorage() {
     });
 }
 
-let tokenClient: google.accounts.oauth2.TokenClient | null = null;
-let codeClient: google.accounts.oauth2.CodeClient | null = null;
+async function initGoogleWeb() {
+    await injectScript("https://accounts.google.com/gsi/client");
 
-export async function doSignIn(): Promise<void> {
-    const user: User = await GoogleAuth.signIn();
-    const authentication: Authentication = user.authentication;
-    _writeAuthToStorage(authentication);
-    accessToken = authentication.accessToken;
+    tokenClient = google.accounts.oauth2.initTokenClient({
+        client_id: CLIENT_ID,
+        scope: SCOPES, // your "drive.appdata" scope string
+        callback: (resp) => {
+            if (resp.error) {
+                console.error("GIS error", resp);
+                return;
+            }
+            accessToken = resp.access_token || null;
+            if (accessToken) {
+                _writeAuthToStorage({ accessToken } as Authentication);
+            }
+        },
+    });
 }
 
 let accessToken: string | null = null;
+let tokenClient: google.accounts.oauth2.TokenClient | null = null;
 
-GoogleAuth.initialize({
-    clientId: CLIENT_ID,
-    scopes: Object.values(SCOPES_READABLE),
-    grantOfflineAccess: false,
-});
+async function initGis() {
+    await injectScript("https://accounts.google.com/gsi/client");
 
+    tokenClient = google.accounts.oauth2.initTokenClient({
+        client_id: CLIENT_ID,
+        scope: SCOPES, // your drive.appdata scope
+        callback: (resp) => {
+            if (resp.access_token) {
+                accessToken = resp.access_token;
+                _writeAuthToStorage({ accessToken } as any);
+            }
+        },
+    });
+}
+
+export async function doSignIn(): Promise<void> {
+    if (!tokenClient) await initGis();
+    tokenClient?.requestAccessToken();
+}
+
+// GoogleAuth.initialize({
+//     clientId: CLIENT_ID,
+//     scopes: Object.values(SCOPES_READABLE),
+//     grantOfflineAccess: false,
+// });
 
 export async function doSignOut(): Promise<void> {
-    GoogleAuth.signOut();
-
-    // Revoke the access token
     const credentials = _readTokenFromStorage();
-    if (credentials && credentials.accessToken) {
-        const revokeTokenUrl = `https://oauth2.googleapis.com/revoke?token=${credentials.accessToken}`;
-        await fetch(revokeTokenUrl, {
-            method: "POST",
-        });
+    if (credentials?.accessToken) {
+        await fetch(`https://oauth2.googleapis.com/revoke?token=${credentials.accessToken}`, { method: "POST" });
     }
     _clearTokenFromStorage();
     accessToken = null;

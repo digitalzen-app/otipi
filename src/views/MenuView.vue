@@ -43,7 +43,7 @@
                         <ion-label>GitHub Project</ion-label>
                     </ion-item>
 
-                    <ion-item button href="https://digitalzen.app" target="_blank">
+                    <ion-item button href="https://www.digitalzen.app" target="_blank">
                         <ion-icon slot="start" :icon="heartOutline"></ion-icon>
                         <ion-label>
                             Powered by DigitalZen.app

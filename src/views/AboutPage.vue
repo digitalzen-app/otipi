@@ -45,12 +45,12 @@
 
         <h3>About DigitalZen.app</h3>
         <p>
-            Otipi is a side project lovingly crafted by the team at <a href="https://digitalzen.app"
+            Otipi is a side project lovingly crafted by the team at <a href="https://www.digitalzen.app"
                 target="_blank">DigitalZen.app</a>. While we’re thrilled to share this tool with the community, we want
             to make it clear:
         </p>
         <ul>
-            <li><a href="https://digitalzen.app" target="_blank">DigitalZen.app</a> is a productivity tool that
+            <li><a href="https://www.digitalzen.app" target="_blank">DigitalZen.app</a> is a productivity tool that
                 primarily focuses on blocking apps
                 and websites.</li>
             <li>This project is not officially supported by DigitalZen.app, and we do not take any responsibility for

@@ -30,7 +30,7 @@
                 <span class="ion-padding-start"><a href="#/pages/about">About</a></span>
                 <span class="ion-padding-start"><a href="https://github.com/digitalzen-app/otipi" target="_blank">GitHub
                         Project</a></span>
-                <span class="ion-padding-start"><a href="https://digitalzen.app" target="_blank">Powered by
+                <span class="ion-padding-start"><a href="https://www.digitalzen.app" target="_blank">Powered by
                         DigitalZen.app - a cross-platform apps and websites blocker</a></span>
                 <span class="ion-padding-end ion-float-end">{{ version }}</span>
             </IonText>

@@ -7,7 +7,7 @@
 
 **OTIPI** is a secure, open-source, web-based One-Time Password (OTP) authenticator designed as a modern replacement for Authy. Access your 2FA codes from any device, anywhere, with complete control over your data.
 
-*Maintained by the [DigitalZen.app - apps and websites blocker](https://digitalzen.app) team (but don’t forget to check the [disclaimer](#-disclaimer-with-a-smile)!).*
+*Maintained by the [DigitalZen.app - apps and websites blocker](https://www.digitalzen.app) team (but don’t forget to check the [disclaimer](#-disclaimer-with-a-smile)!).*
 
 ## 🌟 Why OTIPI?
 
@@ -103,7 +103,7 @@ npm run dev
 
 ## 🤝 Contributing
 
-We're actively looking for maintainers and contributors! OTIPI is maintained by the developers of [DigitalZen.app](https://digitalzen.app) as a side project to help others and welcomes community involvement (but don’t forget to check the [disclaimer](#-disclaimer-with-a-smile)!).
+We're actively looking for maintainers and contributors! OTIPI is maintained by the developers of [DigitalZen.app](https://www.digitalzen.app) as a side project to help others and welcomes community involvement (but don’t forget to check the [disclaimer](#-disclaimer-with-a-smile)!).
 
 ### How to Contribute
 
@@ -188,7 +188,7 @@ Please help us raise awareness about this app. Just talking about it online can 
 
 Hey there! While OTIPI is lovingly maintained by the DigitalZen.app team as a side project, we want to make it clear:
 
-- **[DigitalZen.app](https://digitalzen.app) focuses on productivity and blocking apps and websites. While we’re proud to have created OTIPI, we don’t officially support it or take responsibility for its use.**
+- **[DigitalZen.app](https://www.digitalzen.app) focuses on productivity and blocking apps and websites. While we’re proud to have created OTIPI, we don’t officially support it or take responsibility for its use.**
 - **Any usage of OTIPI is entirely your responsibility (and yes, it’s our main 2FA tool, we use it every day!).**
 - **DigitalZen.app customer support will not respond to emails or provide assistance** related to OTIPI. Seriously, they’re busy with other stuff, and we don’t want to confuse them! In fact, they probably don’t even know this project exists, let’s keep it our little secret! 😉
 
